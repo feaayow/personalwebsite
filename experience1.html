@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* General Body Styles */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Cooper Black', sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Ensures the footer stays at the bottom */
+    }
+
+    /* Header and Navigation Bar */
+    header {
+        background: #544b8a;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    header .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white; /* White font color for the logo */
+    }
+
+    header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    header nav ul li a {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: none; /* Remove underline */
+        transition: color 0.3s ease;
+    }
+
+    header nav ul li a:hover {
+        color: #d859ff; /* Hover color */
+    }
+
+    /* Section with Light Purple Background */
+    .section-light-purple {
+        background: #aca3e7; /* Light purple */
+        color: rgb(0, 0, 0);
+        padding: 8rem;
+        text-align: justify;
+        font-size: 1.5rem;
+        flex-grow: 1; /* Allow the section to grow and take up space */
+    }
+
+    /* Section with White Background */
+    .section-white {
+        background: white;
+        color: #544b8a; /* Dark purple for text */
+        padding: 3rem;
+        font-size: 1.5rem;
+        text-align: center;
+        flex-grow: 1; /* Allow the section to grow and take up space */
+    }
+
+    /* Image Grid */
+    .image-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    /* Individual Image Frame */
+    .image-frame {
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+        border: 3px solid #544b8a;
+        border-radius: 10px;
+    }
+    /* Media Grid */
+    .media-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    }
+
+    /* Video Frame */
+    .video-frame {
+    width: 300px;
+    height: 350px;
+    border: 3px solid #544b8a;
+    border-radius: 10px;
+    object-fit: cover;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        background: #544b8a;
+        color: white;
+        padding: 0rem 0; 
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+</style>
+<body>
+    <header>
+        <div class="logo">Sofea Scribbles</div>
+        <nav>
+            <ul>
+                <li><a href="homepage1.html">Home</a></li>
+                <li><a href="biodata.html">About Me</a></li>
+                <li><a href="education1.html">Education</a></li>
+                <li><a href="experience1.html">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section 1 with Light Purple Background -->
+    <section class="section-light-purple">
+        <h2>INTERNSHIP EXPERIENCE</h2>
+        <p> My internship journey was a rewarding experience that began at Magma Trd Resources, where I spent a week exploring the fast-paced world of Marketing. 
+            Through brief, it sparked my interest in business communication and collaboration. 
+            I then continued at UiTM Seremban 3 in the Islamic Affairs Unit known as UHEI for seven weeks. 
+            Here, I honed my organizational and administrative skills, contributing to meaningful projects and learning the importance of teamwork and adaptability. 
+            Through challenges and successes, I discovered my strengths, improved my skills, and gained invaluable insights. 
+            This journey wasn't just about work but it was about growth, resilience, and preparing for future career endeavors. </p>
+    </section>
+
+    <!-- Section 2 with White Background (10 Fixed Images Inline) -->
+    <section class="section-white">
+        <h2>🎀 MEMORIES OF INTERNSHIP 🎀</h2>
+        <p> Here are some photos and video clips of my journey on doing my practical:</p>
+        <div class="image-grid">
+            <!-- Example image items (replace 'imageX.jpg' with actual image files) -->
+            <img src="image/IN1.jpg" alt="Image 1" class="image-frame">
+            <img src="image/IN2.jpg" alt="Image 2" class="image-frame">
+            <img src="image/IN3.jpg" alt="Image 3" class="image-frame">
+            <img src="image/IN4.jpg" alt="Image 4" class="image-frame">
+            <img src="image/IN5.jpg" alt="Image 5" class="image-frame">
+            <img src="image/IN6.jpg" alt="Image 6" class="image-frame">
+           
+            <!-- Video frames -->
+        <video controls class="video-frame">
+            <source src="video/V1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video controls class="video-frame">
+            <source src="video/V2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video controls class="video-frame">
+            <source src="video/V3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+            <img src="image/IN7.jpg" alt="Image 7" class="image-frame">
+            <img src="image/IN8.jpg" alt="Image 8" class="image-frame">
+            <img src="image/IN9.jpg" alt="Image 9" class="image-frame">
+            <img src="image/IN10.jpg" alt="Image 10" class="image-frame">
+            <img src="image/IN11.jpg" alt="Image 10" class="image-frame">
+            <img src="image/IN12.jpg" alt="Image 10" class="image-frame">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sofea Scribbles</p>
+    </footer>
+</body>
+</html>
